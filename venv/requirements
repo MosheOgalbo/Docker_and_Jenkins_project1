@@ -1,0 +1,6 @@
+clik==7.1.2
+flask==1.1.2
+itsdangerous==1.1.0
+jinja2==2.11.2
+MarkupSafe==1.1.1
+Werkzeug==1.0.1
