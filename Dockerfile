@@ -1,10 +1,10 @@
-FROM python3:latest
+FROM python:latest
 
 WORKDIR /app
 
 COPY requirements.txt .
-RUN pip3 install -r requirements.txt
+RUN pip3 install -m requirements.txt
 
 COPY /app .
 
-CMD ["python3", "index.py"]
+CMD ["python", "index.py"]
