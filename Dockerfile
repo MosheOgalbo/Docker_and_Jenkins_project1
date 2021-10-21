@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 
 COPY /app .
 
-CMD ["python","index.py"]
+CMD ["python", "index.py"]
