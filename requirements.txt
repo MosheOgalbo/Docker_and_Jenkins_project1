@@ -1,4 +1,4 @@
-clik==7.1.2
+click==7.1.2
 flask==1.1.2
 itsdangerous==1.1.0
 jinja2==2.11.2
