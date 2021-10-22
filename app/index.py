@@ -6,4 +6,4 @@ def hello_moshe():
 @app.route('/devops')
 def devops():
     return "hello devops"
-app.run(host="172.0.0.1", port=5000)
+app.run(host="127.0.0.1", port=5000)
